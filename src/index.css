@@ -1,0 +1,48 @@
+body,
+input {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.pregunta {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pregunta label {
+  width: 95px;
+}
+
+input {
+  padding: 5px 6px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 0 0 2px gray;
+  background-color: wheat;
+  flex: 1;
+}
+
+.aviso {
+  color: white;
+  background-color: red;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.resumen {
+  color: white;
+  background-color: green;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  appearance: none;
+  margin:0;
+}
